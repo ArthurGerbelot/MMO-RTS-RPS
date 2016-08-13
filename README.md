@@ -94,7 +94,7 @@ The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be 
    - QG lvl 3  
 
 #### Troop Camp (city only)
-<img src="http://preview.turbosquid.com/Preview/2014/11/13__09_33_19/05.pngf0959659-3baf-469e-9cb3-d2d599e83d49Original.jpg" width="150px" />
+<img src="http://preview.turbosquid.com/Preview/2014/07/09__21_25_32/V1.pngcb8c46f8-0b2d-49a2-b3fb-83ea7caab9b4Original.jpg" width="150px" />
 
  - Create troops
 
