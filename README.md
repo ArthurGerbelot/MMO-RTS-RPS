@@ -20,9 +20,6 @@ The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be 
  - New player are populated the border of the galaxy (far for the center, where the **solar system** number is high)
  - More the player are close to the center, more the game is difficule (see *IA/Pirates*) but interesting in resources
 
-
-## Players
-
 ## Planets - Cities/Outposts
 
 #### Planets
@@ -40,7 +37,33 @@ The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be 
  - **City** can NOT be taken if a player already have it. Only owner can decide to leave a city. (see *Colonization*)
  - **City** have a maximum of building, defence and unit that can contain (see *Buildings-QG*)
 
+## Players
+
+ - **Player** start on a new planet with only 2 unpopulated cities.
+ 
 ## Space Exploration / Colonization
+
+ - **Solar system** view are available with **Radar** lvl 1 (see *Buildings*)
+ - **Galaxy** view are available with **Radar** lvl 2 (see *Buildings*)
+ - The range of Galaxy view is defined by Radar lvl and Technologies 
+
+## Quests
+ 
+#### Tutorial
+ 
+ - Quests help user to start as tutorial:
+   - Build **Generator** 
+   - Build **Mine** 
+   - Build **Troop camp**
+   - Attack an **Outpost** on your city's region (can't take it now)
+   - Build **Vehicule Factory**
+   - Build **Outpost Vehicule deployment** and take control of an **Outpost** on your city's region
+   - Build **QG Vehicule deployment** and take control of an **City** on your planet
+   - Build **Space Radar**
+
+#### Event
+
+ - Random even can append as quest. (see *IA/Pirates*)
 
 ## Raid (Tower defense)
 
@@ -67,14 +90,23 @@ The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be 
 #### QG (city only)
 <img src="http://preview.turbosquid.com/Preview/2014/07/09__08_24_48/view0.pngbaa4c4a6-aef3-4c25-a9e2-d9c788b77845Original.jpg" width="150px" />
 
- - Main building, auto-created when a player take control of a city 
+ - Main building, auto-created when a player take control of a city (require **QC Vehicule deployment**)
  - The level of this building limit the maximum number of buildings that city can contain 
 
 #### OutPost (outpost only)
 <img src="http://preview.turbosquid.com/Preview/2014/07/10__00_40_15/V1.png72e149e2-51ef-4aaf-99b4-5266d13a3c8fOriginal.jpg" width="150px" />
  
- - Equivalent as **QG** for an outpost
+ - Equivalent as **QG** for an outpost  (require **Outpost Vehicule deployment**)
 
+#### Generator (city only)
+<img src="http://preview.turbosquid.com/Preview/2014/07/09__20_21_44/v6.png2fcbb516-4406-4af9-a3d4-c4c1efd54a85Original.jpg" width="150px" />
+
+ - Create energy
+ 
+#### Solar panel
+
+ - Create energy
+ 
 #### Mine (city only)
 <img src="http://preview.turbosquid.com/Preview/2014/07/09__10_09_01/Reactor_v1.png001d08eb-7238-4aa9-a7b1-04f2c0845774Original.jpg" width="150px" />
 
@@ -124,6 +156,20 @@ The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be 
 ## Reseach
 
 ## Troops
+
+#### Troops
+
+#### Vehicules
+
+**Outpost Vehicule deployment**
+ - Allow to take an outpost when attacking, and create Outpost building.
+ - **Requirements:**
+   - Vehicule Factory lvl 1
+   
+**QG Vehicule deployment**: 
+ - Allow to take a city when not occupied (or IA attacking), and create QG building.
+ - **Requirements:**
+   - Vehicule Factory lvl 2
 
 ## Fleet
 
