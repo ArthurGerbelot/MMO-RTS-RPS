@@ -59,7 +59,9 @@ The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be 
 
 ## Multiplayer games 
  - Coming later (much later)
- 
+
+## Alliance / Relation
+
 ## Buildings
 
 #### QG (city only)
