@@ -68,12 +68,17 @@ The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be 
  - Main building, auto-created when a player take control of a city 
  - The level of this building limit the maximum number of buildings that city can contain 
 
+#### OutPost (outpost only)
+<img src="http://preview.turbosquid.com/Preview/2014/07/10__00_40_15/V1.png72e149e2-51ef-4aaf-99b4-5266d13a3c8fOriginal.jpg" width="150px" />
+ 
+ - Equivalent as **QG** for an outpost
+
 #### Mine (city only)
 <img src="http://preview.turbosquid.com/Preview/2014/07/09__10_09_01/Reactor_v1.png001d08eb-7238-4aa9-a7b1-04f2c0845774Original.jpg" width="150px" />
 
  - Collect resource
 
-#### Silo
+#### Silo (city only?)
 <img src="http://preview.turbosquid.com/Preview/2014/07/09__21_25_32/v1.png25cd7859-9e0c-4b2e-9371-e38b3fdf55ccOriginal.jpg" width="150px" />
 
  - Store more resources
@@ -89,14 +94,14 @@ The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be 
    - QG lvl 3  
 
 #### Troop Camp (city only)
-<img src="http://preview.turbosquid.com/Preview/2014/07/10__00_40_15/V1.png72e149e2-51ef-4aaf-99b4-5266d13a3c8fOriginal.jpg" width="150px" />
+<img src="http://preview.turbosquid.com/Preview/2014/11/13__09_33_19/05.pngf0959659-3baf-469e-9cb3-d2d599e83d49Original.jpg" width="150px" />
 
- - Create troop
+ - Create troops
 
 #### Vehicule Factory (city only)
 <img src="http://preview.turbosquid.com/Preview/2014/07/09__22_36_02/V1.png743e5ecf-0ac4-4692-ab8b-3bfd1cd120d0Original.jpg" width="150px" />
 
- - Create vehicule
+ - Create vehicules
 
 #### Laboratory (city only)
 <img src="http://preview.turbosquid.com/Preview/2014/07/09__10_23_50/v1.png3dc291cf-7970-498f-9c6c-dc8017078203Original.jpg" width="150px" />
