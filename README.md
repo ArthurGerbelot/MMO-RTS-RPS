@@ -176,7 +176,7 @@ The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be 
 #### Troops Transport Ship
 
  - Allow use to transport troops from planet to another, or attack
- - 
+ 
 #### Resources Transport Ship
 
  - Allow use to transport resources from attacking planet, or from a planet/city to another.
