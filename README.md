@@ -105,12 +105,12 @@ The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be 
  - Main building, auto-created when a player take control of a city (require **QC Vehicule deployment**)
  - The level of this building limit the maximum number of buildings that city can contain 
  
-| Level | Cost (Metal) | Cost (Gold) | Energy | Time | 
-| :---: | ---: | ---: | ---: | ---: |
-| 1 | - | - | +10 | - |
-| 2 | 1.000 | 500 | +20 | 5m | 
-| 3 | 4.000 | 2.000 | +40 | 30min | 
-| 4 | 20.000 | 10.000 | +100 | 1h30 | 
+| Level | Cost (Metal) | Cost (Gold) | Energy | Time | Building slots | 
+| :---: | ---: | ---: | ---: | ---: | :---: |
+| 1 | - | - | +10 | - | 3 |
+| 2 | 1.000 | 500 | +20 | 5m | 4 | 
+| 3 | 4.000 | 2.000 | +40 | 30min | 4 | 
+| 4 | 20.000 | 10.000 | +100 | 1h30 | 5 | 
 
 #### OutPost (outpost only)
 <img src="http://preview.turbosquid.com/Preview/2014/07/10__00_40_15/V1.png72e149e2-51ef-4aaf-99b4-5266d13a3c8fOriginal.jpg" width="150px" />
