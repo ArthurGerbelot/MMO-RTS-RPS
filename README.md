@@ -108,8 +108,8 @@ The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be 
 | Level | Cost (Metal) | Cost (Gold) | Energy | Time | 
 | :---: | ---: | ---: | ---: | ---: |
 | 1 | - | - | +10 | - |
-| 2 | 1.000 | 4.00 | +20 | 5m | 
-| 3 | 4.000 | 1.000 | +40 | 30min | 
+| 2 | 1.000 | 500 | +20 | 5m | 
+| 3 | 4.000 | 2.000 | +40 | 30min | 
 | 4 | 20.000 | 10.000 | +100 | 1h30 | 
 
 #### OutPost (outpost only)
@@ -117,24 +117,24 @@ The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be 
  
  - Equivalent as **QG** for an outpost  (require **Outpost Vehicule deployment**)
 
-| Level | Cost (Metal) | Cost (Gold) | Energy | Time |
-| :---: | ---: | ---: | ---: | ---: |
-| 1 | - | - | +5 | - |
-| 2 | 100 | 50 | +10 | 3m | 
-| 3 | 400 | 100 | +15 | 15min | 
-| 4 | 2.000 | 800 | +25 | 45min | 
+| Level | Cost (Metal) | Cost (Gold) | Energy | Time | Requirements | 
+| :---: | ---: | ---: | ---: | ---: | --- |
+| 1 | - | - | +5 | - | - |
+| 2 | 100 | 30 | +10 | 3m | QG Level ? | 
+| 3 | 300 | 100 | +15 | 15m | QG Level ? |
+| 4 | 3.000 | 1.000 | +25 | 45m | QG Level ?  |
 
 #### Generator (city only)
 <img src="http://preview.turbosquid.com/Preview/2014/07/09__20_21_44/v6.png2fcbb516-4406-4af9-a3d4-c4c1efd54a85Original.jpg" width="150px" />
 
  - Create energy
 
-| Level | Cost (gold) | Cost (Metal) | Energy | Requirement |
-| :---: | ---: | ---: | ---: | --- |
-| 1 | - | +10 | - |  |
-| 2 | 1.000 | +20 |  |  | 
-| 3 | 4.000 | +40 |  |  |
-| 4 | 25.000 | +80 |  |  |
+| Level | Cost (gold) | Cost (Metal) | Energy | Time | Requirement |
+| :---: | ---: | ---: | ---: | ---: | --- |
+| 1 | 100 | 40 | +25 | 3m | QG level 1 |
+| 2 | 250 | 100 | +50 | 15m | - | 
+| 3 | 1.000 | 400 | +100 | 45m | QG level 2 |
+| 4 | 5.000 | 2.000 | +200 | 1h30 | QG level 3 |
  
 #### Solar panel
 
