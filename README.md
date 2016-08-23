@@ -10,8 +10,8 @@
  - The universe contain multiple **galaxies** *[0-max]*
  - Each **galaxy** contain multiple **spiral arms** *~[0-4,8] with **solar systems** *[0-99999+]* (`0` is the closest to the center)
  - Each **solar systems** contain **planets** *[0-max]* (`0` is the closest to the sun(s))
- - **Planets** can have moons 
  - **Planets** have **cities** and **outpost** (see *City/Outpost*)
+ - **Planets** can have moons 
  
 The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be considered as an unique Id. *(Example: 2-3-150354-3)*
 
@@ -40,6 +40,18 @@ The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be 
 ## Players
 
  - **Player** start on a new planet with only 2 unpopulated cities.
+ - **Player** are protected instead he's not able to travel in space.
+ 
+## Resources
+
+ - **Resources** are handled by cities (and shared with same region's outpost)
+ - **Metal:Gold** ratio is ~3:1
+
+ - **Energy** are require by buildings to works. 
+   - Energy can't be stored, it's an instant amount of energy created and used.
+   - If a city didn't have enough energy to work, buildings stop working (can be disactivated)
+ - **Gold** are used to update buildings and research 
+ - **Metal** are used to update buildings and troops
  
 ## Space Exploration / Colonization
 
@@ -92,16 +104,37 @@ The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be 
 
  - Main building, auto-created when a player take control of a city (require **QC Vehicule deployment**)
  - The level of this building limit the maximum number of buildings that city can contain 
+ 
+| Level | Cost (Metal) | Cost (Gold) | Energy | Time | 
+| :---: | ---: | ---: | ---: | ---: |
+| 1 | - | - | +10 | - |
+| 2 | 1.000 | 4.00 | +20 | 5m | 
+| 3 | 4.000 | 1.000 | +40 | 30min | 
+| 4 | 20.000 | 10.000 | +100 | 1h30 | 
 
 #### OutPost (outpost only)
 <img src="http://preview.turbosquid.com/Preview/2014/07/10__00_40_15/V1.png72e149e2-51ef-4aaf-99b4-5266d13a3c8fOriginal.jpg" width="150px" />
  
  - Equivalent as **QG** for an outpost  (require **Outpost Vehicule deployment**)
 
+| Level | Cost (Metal) | Cost (Gold) | Energy | Time |
+| :---: | ---: | ---: | ---: | ---: |
+| 1 | - | - | +5 | - |
+| 2 | 100 | 50 | +10 | 3m | 
+| 3 | 400 | 100 | +15 | 15min | 
+| 4 | 2.000 | 800 | +25 | 45min | 
+
 #### Generator (city only)
 <img src="http://preview.turbosquid.com/Preview/2014/07/09__20_21_44/v6.png2fcbb516-4406-4af9-a3d4-c4c1efd54a85Original.jpg" width="150px" />
 
  - Create energy
+
+| Level | Cost (gold) | Cost (Metal) | Energy | Requirement |
+| :---: | ---: | ---: | ---: | --- |
+| 1 | - | +10 | - |  |
+| 2 | 1.000 | +20 |  |  | 
+| 3 | 4.000 | +40 |  |  |
+| 4 | 25.000 | +80 |  |  |
  
 #### Solar panel
 
