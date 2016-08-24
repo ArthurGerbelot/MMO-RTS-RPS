@@ -76,6 +76,12 @@ The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be 
 #### Event
 
  - Random even can append as quest. (see *IA/Pirates*)
+ 
+#### HearthStone
+
+ - New Daily quest every morning
+ - Max X quests
+ - Can be done in 1hour or 1month (haha)
 
 ## Raid (Tower defense)
 
