@@ -97,11 +97,20 @@ The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be 
  - **Players** can attack their base (who can be destructed)
  - Random even can append (cities/outposts attack, ship interception, ..)
  - More close planet are from the center of the galaxy, more evolued are the IA, more interesting are resources
+ - Relation with IA can be negative, or positive:  Player can attack or help IA planet
+ - IA also have alliances, relationship with them will influence other IA.
+ - Good relation with IA can make them help you (resources, attacking a player, ..)
 
 ## Multiplayer games 
  - Coming later (much later)
 
 ## Alliance / Relation
+
+ - Player relation with individual player
+ - Player relation with alliance
+ - Alliance relation with alliance
+ - Player relation with IA
+ - Player relation with IA alliance
 
 ## Buildings
 
