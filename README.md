@@ -36,6 +36,9 @@ The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be 
  - Every player can take an **outpost** by attacking it (maybe not the first time)
  - **City** can NOT be taken if a player already have it. Only owner can decide to leave a city. (see *Colonization*)
  - **City** have a maximum of building, defence and unit that can contain (see *Buildings-QG*)
+ - **Cities** on the same planet share the building tree. So high level building require more than one city
+ - The number max of **cities** per **player** is defined by his technology
+ - **Cities** can be abandonned (with instant resource bonus) or moved (taking some time and resources). Gain/Cost grow with the city level.
 
 ## Players
 
