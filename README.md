@@ -53,6 +53,7 @@ The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be 
  - **Energy** are require by buildings to works. 
    - Energy can't be stored, it's an instant amount of energy created and used.
    - If a city didn't have enough energy to work, buildings stop working (can be disactivated)
+   - Some building use energy everytime to work, but factories use energy only when it working. 
  - **Gold** are used to update buildings and research 
  - **Metal** are used to update buildings and troops
  
