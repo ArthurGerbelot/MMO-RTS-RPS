@@ -25,6 +25,8 @@
 - **Region:** `galaxy-spiralArm-solarSystem-planet(#moon)-region`
 - **City:** `galaxy-spiralArm-solarSystem-planet(#moon)-region-0`
 - **Outpost:** `galaxy-spiralArm-solarSystem-planet(#moon)-region-town`
+
+
 The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be considered as an unique Id. *(Example: 2-3-150354-3)*
 
 #### Facts
