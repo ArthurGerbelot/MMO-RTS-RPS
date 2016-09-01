@@ -11,8 +11,20 @@
  - Each **galaxy** contain multiple **spiral arms** *~[0-4,8] with **solar systems** *[0-99999+]* (`0` is the closest to the center)
  - Each **solar systems** contain **planets** *[0-max]* (`0` is the closest to the sun(s))
  - **Planets** have **cities** and **outpost** (see *City/Outpost*)
- - **Planets** can have moons 
+ - **Planets** can have **moons**. Considered as planet but number is `planet#moon` 
+ - **Planets** have **regions** *~[0-1,5]*
+ - **Regions** have town: *(see Town: Cities/Outpost)*
+   - `0` is a city, main town of the region. 
+   - `~[1-3,5]` are associate Outpost.
  
+**ID**
+
+- **Solar System:** `galaxy-spiralArm-solarSystem`
+- **Planet:** `galaxy-spiralArm-solarSystem-planet`
+- **Moon:** `galaxy-spiralArm-solarSystem-planet#moon`
+- **Region:** `galaxy-spiralArm-solarSystem-planet(#moon)-region`
+- **City:** `galaxy-spiralArm-solarSystem-planet(#moon)-region-0`
+- **Outpost:** `galaxy-spiralArm-solarSystem-planet(#moon)-region-town`
 The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be considered as an unique Id. *(Example: 2-3-150354-3)*
 
 #### Facts
@@ -29,9 +41,9 @@ The planet position is defined by `galaxy-spiralArm-solarSystem-planet`. Can be 
    - temperature, color, ..
  - **Regions** have an unique **city** and a random number of **outpost** *~[2-6]*
  
-#### Cities/Outposts
+#### Towns: Cities/Outposts
 
- - The **city** is the main part of a region. The player who control that city, gain the region's resources
+ - The **city** is the main part of a region (town number: 0). The player who control that city, gain the region's resources
  - If the owner of **city** also have **outpost** (on the same region), he will receive bonus (Ex: +10% resources, can have a special building, ..) 
  - Every player can take an **outpost** by attacking it (maybe not the first time)
  - **City** can NOT be taken if a player already have it. Only owner can decide to leave a city. (see *Colonization*)
